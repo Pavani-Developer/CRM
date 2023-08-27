@@ -1,0 +1,109 @@
+/* projectk.css */
+
+.App {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    background-color:grey;
+    color: white;
+    width: 350px;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right .box {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 350px;
+    margin-right: -2600px;
+    margin-bottom: 100px;
+  }
+  
+  .right input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .right button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-left:110px;
+    transition: background-color 0.1s;
+  }
+    
+    .right input:hover {
+    border-color: #0099ff;
+}
+
+.right button:hover {
+    background-color: #0099ff;
+  }
+
+
+
+  .fun{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin-right: 650px;
+    font-size: 10px;
+    margin-top: 80px;
+    
+    
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left:-80px;
+    margin-right: 1800px;
+   
+  }
+  
+ 
+
+.button1,
+.button2 {
+  margin: 10px; 
+}
+
+.button1 button,
+.button2 button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px; 
+  width: 100px;
+  cursor: pointer;
+  font-size: 15px;
+}
